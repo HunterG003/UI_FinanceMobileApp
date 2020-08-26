@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		5AA1AC7124F5854400BE2778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7024F5854400BE2778 /* AppDelegate.swift */; };
 		5AA1AC7324F5854400BE2778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7224F5854400BE2778 /* SceneDelegate.swift */; };
-		5AA1AC7524F5854400BE2778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7424F5854400BE2778 /* ViewController.swift */; };
-		5AA1AC7824F5854400BE2778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7624F5854400BE2778 /* Main.storyboard */; };
+		5AA1AC7524F5854400BE2778 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7424F5854400BE2778 /* ProfileViewController.swift */; };
 		5AA1AC7A24F5854700BE2778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7924F5854700BE2778 /* Assets.xcassets */; };
 		5AA1AC7D24F5854700BE2778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1AC7B24F5854700BE2778 /* LaunchScreen.storyboard */; };
+		5AA1AC8524F58C1600BE2778 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC8424F58C1600BE2778 /* CardView.swift */; };
+		5AA1AC8924F5C8B700BE2778 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC8824F5C8B700BE2778 /* ActivityCell.swift */; };
+		5AA1AC8D24F6EC8900BE2778 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC8C24F6EC8900BE2778 /* CircleButton.swift */; };
+		5AA1AC8F24F6F0AA00BE2778 /* SendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC8E24F6F0AA00BE2778 /* SendMoneyViewController.swift */; };
+		5AA1AC9124F6F3D500BE2778 /* MiniCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1AC9024F6F3D500BE2778 /* MiniCardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5AA1AC6D24F5854400BE2778 /* UI_FinanceMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_FinanceMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA1AC7024F5854400BE2778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AA1AC7224F5854400BE2778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AA1AC7424F5854400BE2778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AA1AC7724F5854400BE2778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AA1AC7424F5854400BE2778 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5AA1AC7924F5854700BE2778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AA1AC7C24F5854700BE2778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AA1AC7E24F5854700BE2778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA1AC8424F58C1600BE2778 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5AA1AC8824F5C8B700BE2778 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		5AA1AC8C24F6EC8900BE2778 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		5AA1AC8E24F6F0AA00BE2778 /* SendMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMoneyViewController.swift; sourceTree = "<group>"; };
+		5AA1AC9024F6F3D500BE2778 /* MiniCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				5AA1AC7024F5854400BE2778 /* AppDelegate.swift */,
 				5AA1AC7224F5854400BE2778 /* SceneDelegate.swift */,
-				5AA1AC7424F5854400BE2778 /* ViewController.swift */,
-				5AA1AC7624F5854400BE2778 /* Main.storyboard */,
+				5AA1AC7424F5854400BE2778 /* ProfileViewController.swift */,
+				5AA1AC8C24F6EC8900BE2778 /* CircleButton.swift */,
+				5AA1AC8E24F6F0AA00BE2778 /* SendMoneyViewController.swift */,
+				5AA1AC9024F6F3D500BE2778 /* MiniCardCell.swift */,
+				5AA1AC8824F5C8B700BE2778 /* ActivityCell.swift */,
+				5AA1AC8424F58C1600BE2778 /* CardView.swift */,
 				5AA1AC7924F5854700BE2778 /* Assets.xcassets */,
 				5AA1AC7B24F5854700BE2778 /* LaunchScreen.storyboard */,
 				5AA1AC7E24F5854700BE2778 /* Info.plist */,
@@ -126,7 +138,6 @@
 			files = (
 				5AA1AC7D24F5854700BE2778 /* LaunchScreen.storyboard in Resources */,
 				5AA1AC7A24F5854700BE2778 /* Assets.xcassets in Resources */,
-				5AA1AC7824F5854400BE2778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +148,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA1AC7524F5854400BE2778 /* ViewController.swift in Sources */,
+				5AA1AC7524F5854400BE2778 /* ProfileViewController.swift in Sources */,
 				5AA1AC7124F5854400BE2778 /* AppDelegate.swift in Sources */,
+				5AA1AC8924F5C8B700BE2778 /* ActivityCell.swift in Sources */,
+				5AA1AC8D24F6EC8900BE2778 /* CircleButton.swift in Sources */,
+				5AA1AC9124F6F3D500BE2778 /* MiniCardCell.swift in Sources */,
+				5AA1AC8524F58C1600BE2778 /* CardView.swift in Sources */,
 				5AA1AC7324F5854400BE2778 /* SceneDelegate.swift in Sources */,
+				5AA1AC8F24F6F0AA00BE2778 /* SendMoneyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5AA1AC7624F5854400BE2778 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AA1AC7724F5854400BE2778 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5AA1AC7B24F5854700BE2778 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huntergilliam.UI-FinanceMobileApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huntergilliam.UI-FinanceMobileApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
